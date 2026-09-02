@@ -1158,3 +1158,41 @@ button {
     opacity: 1 !important;
     transform: none !important;
 }
+/* SkyImpact Award */
+
+.award-image-wrapper {
+    text-align: center;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.award-image {
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(11, 45, 80, 0.18);
+}
+
+.award-caption {
+    margin-top: 18px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #475569;
+}
+
+.award-caption strong {
+    color: #0B2D50;
+}
+
+@media (max-width: 768px) {
+    .award-image {
+        max-width: 320px;
+    }
+
+    .award-image-wrapper {
+        margin-top: 30px;
+    }
+}
